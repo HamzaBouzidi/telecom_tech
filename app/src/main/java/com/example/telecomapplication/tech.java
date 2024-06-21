@@ -40,7 +40,7 @@ public class tech extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(tech.this, messages_tech_list.class);
+                Intent intent = new Intent(tech.this, send_or_receive.class);
                 startActivity(intent);
             }
         });

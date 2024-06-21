@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".saisie_message_tech">
+    tools:context=".saisie_message_tech"
+    android:background="@drawable/sign_in_background">
 
 
     <!-- Button for sending message -->
