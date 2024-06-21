@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">PFE</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_sign_in">sign_in</string>
+    <string name="Email">Email</string>
+    <string name="Tunisie_Telecom">Tunisie Telecom</string>
+    <string name="Login_to_continue">Login to continue</string>
+    <string name="Password">Password</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="Create_New_Account">Create New Account</string>
+    <string name="Add_Image">Add Image</string>
+    <string name="name">name</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="bienvenue">bienvenue</string>
+    <string name="Mon_Profil">Mon Profil</string>
+    <string name="Saisir_une_tâche">Saisir une tâche</string>
+    <string name="Vérifier_une_tâche">Vérifier une tâche</string>
+    <string name="installation_et_paramétrage_des_équipements_matériels">installation et paramétrage des équipements matériels</string>
+    <string name="prise_en_charge_des_incidents">prise en charge des incidents</string>
+    <string name="préparer_les_matériels">préparer les matériels </string>
+    <string name="Réaliser_des_câblage">Réaliser des câblage</string>
+    <string name="Mettre_en_place_des_outils_de_surveillance_réseau">Mettre en place des outils de surveillance réseau</string>
+    <string name="Effectuer_les_tests_pour_la_validation_des_installations">Effectuer les tests pour la validation des installations</string>
+    <string name="title_activity_ajouter_tache">ajouter_tache</string>
+    <string name="title_activity_new_essai">new_essai</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="spinner_items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+</resources>

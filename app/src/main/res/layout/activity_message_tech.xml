@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/sign_in_background"
+    tools:context=".mestachestech">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_input"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:padding="24dp"
+        android:scrollbars="none"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="107dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/telecomlogo" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="105dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="548dp"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ms" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="308dp"
+            android:layout_height="71dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="212dp"
+            android:background="@drawable/btn_background_1"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_1"
+            android:drawableLeft="@drawable/ajoutmsg"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:text="Envoyer un message"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.766"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="308dp"
+            android:layout_height="71dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/btn_background_1"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_1"
+            android:drawableLeft="@drawable/communication"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:text="Mes messages "
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.766"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
